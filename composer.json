@@ -1,0 +1,19 @@
+{
+    "name": "stijn/yggi-package-test",
+    "description": "This package contains a multiplication and substraction function",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Stijn\\YggiPackageTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "stijnveeke",
+            "email": "st.van.eekelen@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
