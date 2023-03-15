@@ -1,11 +1,9 @@
 <?php
-
-namespace stijn\Calculation;
-
+namespace Stijn\YggiPackageTest;
+require_once ('envcheck.php');
 class Calculation
 {
     public function division(int $number1, int $number2): int {
-        var_dump($_ENV('DB_HOST'));
         return $number1 / $number2;
     }
 
